@@ -1,0 +1,3 @@
+repository "Game_426/Game_426@9072307467124@cloud"
+  path "/"
+    smartbranch "/main/feature/ui"
