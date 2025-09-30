@@ -38,4 +38,13 @@ public class Player2Movement : MonoBehaviour
 
         transform.position = new Vector2(transform.position.x + inputX * speed * Time.deltaTime, transform.position.y + inputY * speed * Time.deltaTime);
     }
+
+        void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Mob")
+        {
+            Destroy(collision.gameObject); 
+        }
+    }
+
 }

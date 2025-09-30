@@ -22,5 +22,9 @@ public class MobMovement : MonoBehaviour
         {
             direction *= -1; 
         }
+        else if (collision.gameObject.name == "Player 1" || collision.gameObject.name == "Player 2")
+        {
+            Destroy(collision.gameObject); 
+        }
     }
 }
