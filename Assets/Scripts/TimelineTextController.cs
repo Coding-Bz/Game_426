@@ -1,7 +1,8 @@
-using UnityEngine;
-using UnityEngine.Playables;
-using UnityEngine.InputSystem;
 using TMPro;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class TimelineController : MonoBehaviour
 {
@@ -163,7 +164,7 @@ public class TimelineController : MonoBehaviour
         else
         {
             currentState = CutsceneState.AllComplete;
-            ShowAllCompleteMessage();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
@@ -242,16 +243,6 @@ public class TimelineController : MonoBehaviour
         }
     }
 
-    void ShowAllCompleteMessage()
-    {
-        if (skipText != null)
-        {
-            skipText.gameObject.SetActive(true);
-            skipText.text = "All cutscenes finished!";
-        }
-    }
-
-    // Public methods for debugging
     public void ForceNextCutscene()
     {
         NextCutscene();
