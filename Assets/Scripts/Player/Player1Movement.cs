@@ -19,7 +19,7 @@ public class Player1Movement : MonoBehaviour
         {
             inputX = -1;
         }
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.W))
         {
             inputY = 2;
         }
