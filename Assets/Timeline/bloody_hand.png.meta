@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: bc38901a67ec33c439c75a84327416b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2350551328908245699
+    second: bloody_hand_0
+  - first:
+      213: 7320162671501041435
+    second: bloody_hand_1
+  - first:
+      213: 764190942666939657
+    second: bloody_hand_2
+  - first:
+      213: 4341538084660526827
+    second: bloody_hand_3
+  - first:
+      213: -827095193333972154
+    second: bloody_hand_4
+  - first:
+      213: -607017903041448923
+    second: bloody_hand_5
+  - first:
+      213: 9056842405968730041
+    second: bloody_hand_6
+  - first:
+      213: -4803664227588777819
+    second: bloody_hand_7
+  - first:
+      213: -7110210292683555071
+    second: bloody_hand_8
+  - first:
+      213: 5213904635424835404
+    second: bloody_hand_9
+  - first:
+      213: -3859380324414635240
+    second: bloody_hand_10
+  - first:
+      213: 4091362414606903746
+    second: bloody_hand_11
+  - first:
+      213: 4411752716273588410
+    second: bloody_hand_12
+  - first:
+      213: -3556574052346727764
+    second: bloody_hand_13
+  - first:
+      213: 847467419060112608
+    second: bloody_hand_14
+  - first:
+      213: 5695170144330587390
+    second: bloody_hand_15
+  - first:
+      213: 62071566394192523
+    second: bloody_hand_16
+  - first:
+      213: -3589153651423000981
+    second: bloody_hand_17
+  - first:
+      213: -1456691000367895028
+    second: bloody_hand_18
+  - first:
+      213: -555034781406759219
+    second: bloody_hand_19
+  - first:
+      213: -4328923739991903938
+    second: bloody_hand_20
+  - first:
+      213: -8722226597924111411
+    second: bloody_hand_21
+  - first:
+      213: 5766461630618039870
+    second: bloody_hand_22
+  - first:
+      213: -4327002849345652867
+    second: bloody_hand_23
+  - first:
+      213: 5422472380002875811
+    second: bloody_hand_24
+  - first:
+      213: 5639473091410872335
+    second: bloody_hand_25
+  - first:
+      213: 5084124332603814970
+    second: bloody_hand_26
+  - first:
+      213: -8015420487056109418
+    second: bloody_hand_27
+  - first:
+      213: -385511820158906721
+    second: bloody_hand_28
+  - first:
+      213: 8331271868165278748
+    second: bloody_hand_29
+  - first:
+      213: -5617306637816619991
+    second: bloody_hand_30
+  - first:
+      213: -822068336900087420
+    second: bloody_hand_31
+  - first:
+      213: 2427788204237579553
+    second: bloody_hand_32
+  - first:
+      213: -7523628107571869785
+    second: bloody_hand_33
+  - first:
+      213: -445998278284615032
+    second: bloody_hand_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bloody_hand_0
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2607
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caf5e9daf5de9020800000000000000
+      internalID: 2350551328908245699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_1
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 2582
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fd4e47a21769560800000000000000
+      internalID: 7320162671501041435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1283
+        height: 2581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ddb3e0d93fa9a00800000000000000
+      internalID: 764190942666939657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 2559
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee3503b2ed304c30800000000000000
+      internalID: 4341538084660526827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_4
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2577
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64345e5cd419584f0800000000000000
+      internalID: -827095193333972154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_5
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2575
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52479ecee607397f0800000000000000
+      internalID: -607017903041448923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_6
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2562
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7d57ade2e50bd70800000000000000
+      internalID: 9056842405968730041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_7
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2574
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8d15ef5d4f55db0800000000000000
+      internalID: -4803664227588777819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_8
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 2562
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f354a0965735d90800000000000000
+      internalID: -7110210292683555071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_9
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2563
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47824734a28b5840800000000000000
+      internalID: 5213904635424835404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_10
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2545
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8134226fa0ab07ac0800000000000000
+      internalID: -3859380324414635240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_11
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 2551
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9670a607077c830800000000000000
+      internalID: 4091362414606903746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_12
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 2549
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab81a5298b1b93d30800000000000000
+      internalID: 4411752716273588410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_13
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1807
+        width: 245
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca270803eb284aec0800000000000000
+      internalID: -3556574052346727764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_14
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 2549
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec8bc7a02fc2cb00800000000000000
+      internalID: 847467419060112608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1701
+        width: 232
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc1c3c621f490f40800000000000000
+      internalID: 5695170144330587390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_16
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1798
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82f391c2c58cd000800000000000000
+      internalID: 62071566394192523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_17
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1820
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66c2aa25c3c03ec0800000000000000
+      internalID: -3589153651423000981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_18
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1820
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e2097c04bc8cbe0800000000000000
+      internalID: -1456691000367895028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_19
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1820
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc673489ece1c48f0800000000000000
+      internalID: -555034781406759219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_20
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1829
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31f60a4bc29ce3c0800000000000000
+      internalID: -4328923739991903938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_21
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1807
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbf44c1f1d64f680800000000000000
+      internalID: -8722226597924111411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_22
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 810
+        width: 330
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3678ef0d46960050800000000000000
+      internalID: 5766461630618039870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_23
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1797
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7736ae75d563f3c0800000000000000
+      internalID: -4327002849345652867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_24
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1814
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9307e66ed704b40800000000000000
+      internalID: 5422472380002875811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_25
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1808
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f084bedb5ee634e40800000000000000
+      internalID: 5639473091410872335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_26
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1820
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3435c6c4207e8640800000000000000
+      internalID: 5084124332603814970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_27
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1792
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690d1a7d88183c090800000000000000
+      internalID: -8015420487056109418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_28
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1807
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ec6b6ca0366aaf0800000000000000
+      internalID: -385511820158906721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_29
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1804
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c42358f9f9e9370800000000000000
+      internalID: 8331271868165278748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_30
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1798
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c1f7aef515b02b0800000000000000
+      internalID: -5617306637816619991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_31
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1807
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48169fdf33d6794f0800000000000000
+      internalID: -822068336900087420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_32
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1795
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125e67f328c31b120800000000000000
+      internalID: 2427788204237579553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_33
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1783
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7c80a1914b69790800000000000000
+      internalID: -7523628107571869785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_hand_34
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1379
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882e86ccdee7fc9f0800000000000000
+      internalID: -445998278284615032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bloody_hand_0: 2350551328908245699
+      bloody_hand_1: 7320162671501041435
+      bloody_hand_10: -3859380324414635240
+      bloody_hand_11: 4091362414606903746
+      bloody_hand_12: 4411752716273588410
+      bloody_hand_13: -3556574052346727764
+      bloody_hand_14: 847467419060112608
+      bloody_hand_15: 5695170144330587390
+      bloody_hand_16: 62071566394192523
+      bloody_hand_17: -3589153651423000981
+      bloody_hand_18: -1456691000367895028
+      bloody_hand_19: -555034781406759219
+      bloody_hand_2: 764190942666939657
+      bloody_hand_20: -4328923739991903938
+      bloody_hand_21: -8722226597924111411
+      bloody_hand_22: 5766461630618039870
+      bloody_hand_23: -4327002849345652867
+      bloody_hand_24: 5422472380002875811
+      bloody_hand_25: 5639473091410872335
+      bloody_hand_26: 5084124332603814970
+      bloody_hand_27: -8015420487056109418
+      bloody_hand_28: -385511820158906721
+      bloody_hand_29: 8331271868165278748
+      bloody_hand_3: 4341538084660526827
+      bloody_hand_30: -5617306637816619991
+      bloody_hand_31: -822068336900087420
+      bloody_hand_32: 2427788204237579553
+      bloody_hand_33: -7523628107571869785
+      bloody_hand_34: -445998278284615032
+      bloody_hand_4: -827095193333972154
+      bloody_hand_5: -607017903041448923
+      bloody_hand_6: 9056842405968730041
+      bloody_hand_7: -4803664227588777819
+      bloody_hand_8: -7110210292683555071
+      bloody_hand_9: 5213904635424835404
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
