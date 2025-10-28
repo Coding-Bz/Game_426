@@ -348,11 +348,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Magnet
   north: 0
-  power: 3
-  forceMultiplier: 80
+  power: 5
+  forceMultiplier: 50
   minDistance: 0.1
   maxForce: 200
-  interactionRadius: 12
+  interactionRadius: 3
 --- !u!58 &815017730
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -388,7 +388,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 12
+  m_Radius: 3
 --- !u!255 &815017731
 FixedJoint2D:
   m_ObjectHideFlags: 0
@@ -483,11 +483,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Magnet
   north: 1
-  power: 3
-  forceMultiplier: 80
+  power: 5
+  forceMultiplier: 50
   minDistance: 0.1
   maxForce: 200
-  interactionRadius: 12
+  interactionRadius: 3
 --- !u!58 &1099013658
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -523,7 +523,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 12
+  m_Radius: 3
 --- !u!255 &1099013659
 FixedJoint2D:
   m_ObjectHideFlags: 0
@@ -1001,7 +1001,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1830071671104508689, guid: 734af17799eaf0b4a80d75328252940b, type: 3}
       propertyPath: m_Name
-      value: Player 2 with magnatism
+      value: Player 2
       objectReference: {fileID: 0}
     - target: {fileID: 6533934120049856370, guid: 734af17799eaf0b4a80d75328252940b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1101,7 +1101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991040062107882909, guid: 6664819ed8e63c749a8c0bc48e5ec4b4, type: 3}
       propertyPath: m_Name
-      value: Player 1 with magnatism
+      value: Player 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
