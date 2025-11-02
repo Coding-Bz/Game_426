@@ -30,6 +30,9 @@ public class Player1Movement : MonoBehaviour
             inputY = 2;
         }
 
+        if (inputX != 0)
+            transform.localScale = new Vector3(0.7f * inputX, 0.7f, 1);
+
         transform.position = new Vector2(transform.position.x + inputX * speed * Time.deltaTime, transform.position.y + inputY * speed * Time.deltaTime);
     }
 

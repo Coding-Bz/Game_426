@@ -5,10 +5,12 @@ public class MobMovement : MonoBehaviour
     public float speed = 1f;
     private int direction = 1;
     private Rigidbody2D rb;
+    private Vector3 originalScale;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        originalScale = transform.localScale;
         rb.linearVelocity = new Vector2(direction * speed, 0);
     }
 
@@ -22,12 +24,9 @@ public class MobMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Wall"))
         {
             direction *= -1;
-            Vector2 newVelocity = new Vector2(direction * speed, rb.linearVelocity.y);
-            rb.linearVelocity = newVelocity;
+            rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocity.y);
 
-            Vector2 newPosition = transform.position;
-            newPosition.x += direction * 0.1f; 
-            transform.position = newPosition;
+            transform.localScale = new Vector3(originalScale.x * direction, originalScale.y, originalScale.z);
         }
 
         if (collision.gameObject.name == "Player 1" || collision.gameObject.name == "Player 2")

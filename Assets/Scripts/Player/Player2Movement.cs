@@ -27,8 +27,11 @@ public class Player2Movement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            inputY = 2;
+            inputY = 1;
         }
+
+        if (inputX != 0)
+            transform.localScale = new Vector3(0.7f * inputX, 0.7f, 1);
 
         transform.position = new Vector2(transform.position.x + inputX * speed * Time.deltaTime, transform.position.y + inputY * speed * Time.deltaTime);
     }
