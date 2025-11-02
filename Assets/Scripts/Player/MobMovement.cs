@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MobMovement : MonoBehaviour
 {
-    public float speed = 20f;
+    public float speed = 1f;
     private int direction = 1;
     private Rigidbody2D rb;
 
