@@ -22,17 +22,21 @@ public class TimelineController : MonoBehaviour
     private float timelineStartTime = 0f;
     private float finishedTime = 0f;
 
-    public PlayableDirector director;  
-
     void Start()
     {
-        director.Play();
-        director.stopped += OnTimelineStopped; 
+        if (directors == null || directors.Length == 0)
+        {
+            Debug.LogError("No PlayableDirectors assigned to the directors array!");
+            return;
+        }
+        StartCurrentCutscene();
     }
-
+    
     void OnTimelineStopped(PlayableDirector director)
     {
-        SceneManager.LoadScene("commit");  
+        currentState = CutsceneState.Finished;
+        finishedTime = Time.time;
+        HideSkipUI();
     }
 
     void Update()
@@ -61,8 +65,6 @@ public class TimelineController : MonoBehaviour
             {
                 if (!isSkipActive && canSkip)
                     StartSkipProcess();
-                else if (isSkipActive)
-                    ContinueSkipProcess();
             }
         }
         else if (!inputPressed && wasInputPressed && currentState == CutsceneState.Playing)
@@ -103,8 +105,6 @@ public class TimelineController : MonoBehaviour
         ShowSkipUI();
     }
 
-    void ContinueSkipProcess() { }
-
     void CancelSkipProcess()
     {
         isSkipActive = false;
@@ -129,8 +129,7 @@ public class TimelineController : MonoBehaviour
         }
 
         currentDirectorIndex++;
-        currentState = CutsceneState.Playing;
-
+        
         if (currentDirectorIndex < directors.Length)
         {
             StartCurrentCutscene();
@@ -151,9 +150,9 @@ public class TimelineController : MonoBehaviour
             currentDirector.Play();
             currentState = CutsceneState.Playing;
             timelineStartTime = Time.time;
+            HideSkipUI();
         }
     }
-
 
     void UpdateFinishedTip()
     {
@@ -186,6 +185,4 @@ public class TimelineController : MonoBehaviour
         if (skipText != null)
             skipText.gameObject.SetActive(false);
     }
-
-    public void ForceNextCutscene() => NextCutscene();
 }

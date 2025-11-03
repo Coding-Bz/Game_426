@@ -224,7 +224,7 @@ PlayableDirector:
   m_InitialState: 1
   m_WrapMode: 0
   m_DirectorUpdateMode: 1
-  m_InitialTime: 0
+  m_InitialTime: 1
   m_SceneBindings:
   - key: {fileID: 8965714192431721435, guid: 6d4494000c9af60468a871c73bdea8a0, type: 2}
     value: {fileID: 352252246}
@@ -1655,10 +1655,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bac1e3db0276644abf510b4fae1445c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TimelineTextController
-  director: {fileID: 0}
+  directors:
+  - {fileID: 0}
   skipText: {fileID: 927152818}
   requiredHoldTime: 3
   skipDelay: 1
+  finishedTipDelay: 1
 --- !u!4 &1112256573
 Transform:
   m_ObjectHideFlags: 0
