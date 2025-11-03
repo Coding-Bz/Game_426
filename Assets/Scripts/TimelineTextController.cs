@@ -22,10 +22,17 @@ public class TimelineController : MonoBehaviour
     private float timelineStartTime = 0f;
     private float finishedTime = 0f;
 
+    public PlayableDirector director;  
+
     void Start()
     {
-        if (skipText != null) skipText.gameObject.SetActive(false);
-        StartCurrentCutscene();
+        director.Play();
+        director.stopped += OnTimelineStopped; 
+    }
+
+    void OnTimelineStopped(PlayableDirector director)
+    {
+        SceneManager.LoadScene("commit");  
     }
 
     void Update()
@@ -131,7 +138,7 @@ public class TimelineController : MonoBehaviour
         else
         {
             currentState = CutsceneState.AllComplete;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("commit");
         }
     }
 
@@ -147,14 +154,6 @@ public class TimelineController : MonoBehaviour
         }
     }
 
-    void OnTimelineStopped(PlayableDirector director)
-    {
-        if (directors[currentDirectorIndex] == director && currentState == CutsceneState.Playing)
-        {
-            currentState = CutsceneState.Finished;
-            finishedTime = Time.time;
-        }
-    }
 
     void UpdateFinishedTip()
     {
