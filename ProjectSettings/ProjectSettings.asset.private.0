@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
+<<<<<<< HEAD
   productGUID: d714da84fe5220646b2d686d0da07e63
+=======
+  productGUID: 436fc3a67e102324084f01c87fd0a490
+>>>>>>> welcome-page-story-merge
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
