@@ -632,6 +632,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8419715174924152252, guid: 92982322e939f5141b389d01ade783c2, type: 3}
+      propertyPath: maxForce
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -645,6 +649,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2206615828685219827, guid: a61d35fd83e7d044aadd1d84a5619637, type: 3}
+      propertyPath: maxForce
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 6116853476594904346, guid: a61d35fd83e7d044aadd1d84a5619637, type: 3}
       propertyPath: m_Size.x
       value: 4.2

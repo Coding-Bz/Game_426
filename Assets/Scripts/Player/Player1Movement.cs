@@ -21,7 +21,7 @@ public class Player1Movement : MonoBehaviour
         else if (Input.GetKey(KeyCode.A))
             inputX = -1;
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.W))
             inputY = 2;
 
         if (inputX != 0)
