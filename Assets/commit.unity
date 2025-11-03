@@ -598,7 +598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431188341806067954, guid: 92982322e939f5141b389d01ade783c2, type: 3}
       propertyPath: m_Name
-      value: Player 2 with magnatism
+      value: Player 2
       objectReference: {fileID: 0}
     - target: {fileID: 5756821640025772416, guid: 92982322e939f5141b389d01ade783c2, type: 3}
       propertyPath: m_Size.x
@@ -759,7 +759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9217260036254240629, guid: a61d35fd83e7d044aadd1d84a5619637, type: 3}
       propertyPath: m_Name
-      value: Player 1 with magnatism
+      value: Player 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
