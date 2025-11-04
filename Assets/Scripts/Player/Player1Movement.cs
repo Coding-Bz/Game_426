@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player1Movement : MonoBehaviour
 {
@@ -45,7 +46,7 @@ public class Player1Movement : MonoBehaviour
         
         if (collision.gameObject.CompareTag("EndFlag"))
         {
-            gameManager.WinGame();
+           SceneManager.LoadScene("Winning");
         }
     } 
 }
