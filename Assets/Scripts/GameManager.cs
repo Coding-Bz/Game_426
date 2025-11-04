@@ -24,13 +24,13 @@ public class GameManager : MonoBehaviour
         if (!isGameOver)
         {
             isGameOver = true;
-            SceneManager.LoadScene(winSceneName);
+            SceneManager.LoadScene("Winning");
         }
     }
 
     private void LoseGame()
     {
         isGameOver = true;
-        SceneManager.LoadScene(loseSceneName);
+        SceneManager.LoadScene("Loosing");
     }
 }

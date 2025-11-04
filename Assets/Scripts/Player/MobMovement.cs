@@ -29,7 +29,7 @@ public class MobMovement : MonoBehaviour
             transform.localScale = new Vector3(originalScale.x * direction, originalScale.y, originalScale.z);
         }
 
-        if (collision.gameObject.name == "Player 1" || collision.gameObject.name == "Player 2")
+        if (collision.gameObject.name == "player1" || collision.gameObject.name == "player2")
         {
             Destroy(collision.gameObject);
         }
