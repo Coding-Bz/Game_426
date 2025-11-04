@@ -33,16 +33,19 @@ public class MobPatrol : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Wall"))
-        {
-            direction *= -1;
-            rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocity.y);
-            transform.localScale = new Vector3(originalScale.x * direction, originalScale.y, originalScale.z);
+    if (collision.gameObject.CompareTag("Wall"))
+    {
+        direction *= -1;
+        rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocity.y);
+        transform.localScale = new Vector3(originalScale.x * direction, originalScale.y, originalScale.z);
         }
 
-        if (collision.gameObject.name == "player1" || collision.gameObject.name == "player2")
-        {
-            Destroy(collision.gameObject);
+    if (collision.gameObject.name == "player1" || collision.gameObject.name == "player2")
+    {
+        if (gameObject.name == "Ground" || gameObject.CompareTag("Ground"))
+            return; 
+        Destroy(collision.gameObject);
         }
     }
+
 }
