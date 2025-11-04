@@ -7,6 +7,9 @@ TagManager:
   - Wall
   - Ground
   - Mob
+  - EndFlag
+  - Lava
+  - Spike
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,7 @@ public class Player1Movement : MonoBehaviour
     public float speed;
     private int inputX;
     private int inputY;
+    public GameManager gameManager;
 
     void Update()
     {
@@ -35,7 +36,16 @@ public class Player1Movement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "Mob")
+        if (collision.gameObject.name == "Mob" || 
+            collision.gameObject.name == "Lava" || 
+            collision.gameObject.name == "Spike")
+        {
             Destroy(gameObject);
+        }
+        
+        if (collision.gameObject.CompareTag("EndFlag"))
+        {
+            gameManager.WinGame();
+        }
     } 
 }

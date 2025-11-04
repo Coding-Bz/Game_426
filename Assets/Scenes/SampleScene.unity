@@ -350,6 +350,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1591569265
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,3 +523,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1591569269}
+=======
+>>>>>>> welcome-page-story-merge
